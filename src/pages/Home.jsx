@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Companies from "../components/companies/Companies";
+import Features from '../components/features/Features';
 import Header from "../components/header/Header";
 import Navigation from "../components/navigation/Navigation";
 import PaymentTracking from '../components/paymentTracking/PaymentTracking';
@@ -16,6 +18,7 @@ const Home = () => {
         <PortfolioTracking />
         <PaymentTracking />
         <Transaction />
+        <Features/>
     </div>
   )
 }

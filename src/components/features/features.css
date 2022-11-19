@@ -1,0 +1,45 @@
+.features_container{
+    background-color: #C9E7F2;
+    width: 100%;
+    padding: 140px 120px;
+    
+    
+}
+/* .features_contents{
+    padding-top: 140px;
+} */
+
+.features_texts h1{
+    margin-bottom: 37px;
+    font-weight: 800;
+    font-size: 71px;
+    letter-spacing: -0.03em;
+    line-height: 66px;
+}
+.features_texts h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    width: 557px;
+}
+.features_texts{
+    margin-bottom: 50px;
+}
+.feature_cards{
+    display: flex;
+    justify-content: space-between;
+    height: 330px;
+    
+    
+}
+.small_divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* .feature_card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+} */
+

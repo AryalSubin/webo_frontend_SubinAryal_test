@@ -1,0 +1,27 @@
+.feature_card_container{
+    width: 380px;
+    height: auto;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ABC8D2;
+    border-radius: 10px;
+}
+.file_img{
+    margin-bottom: 33px;
+}
+
+.feature_card_container h1{
+    font-weight: 800;
+    font-size: 22px;
+    
+    letter-spacing: -0.03em;
+    
+    /* margin-top: 33px; */
+}
+.feature_card_container h5{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    width: 300px;
+}
