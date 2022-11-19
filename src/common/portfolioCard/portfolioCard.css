@@ -1,0 +1,40 @@
+.Portfolio_card_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 380px;
+    background: #FFFFFF;
+    border: 1px solid #DBE4E9;
+    border-radius: 20px;
+    padding: 55px;
+}
+.Portfolio_card_container:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.Portfolio_card_container .number{
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.Portfolio_card_container .file_img{
+    margin-top: 95px;
+    margin-bottom: 34px;
+}
+.Portfolio_card_container h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.Portfolio_card_container h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(100, 96, 125, 1);
+    text-align: center;
+}

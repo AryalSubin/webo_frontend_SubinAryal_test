@@ -1,0 +1,58 @@
+.Transaction_container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px;
+}
+.Transaction_photo{
+    position: relative;
+    height: 720px;
+
+    
+}
+.Transaction_photo .total_balance_photo{
+    position: absolute;
+    height: 100%;
+    
+}
+.Transaction_photo .total_balance_photo img{
+    position: relative;
+    top: -60px;
+    left: -160px;
+    height: 1000px;
+    width: 800px;
+}
+
+.Transaction_contents{
+    margin-top: 120px;
+    height: 480px;
+    width: 465px;
+}
+.Transaction_contents .Transaction_title{
+    
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+.Transaction_contents h5{
+    color: #3734A9;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.Transaction_contents .Transaction_subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: rgba(100, 96, 125, 1);
+    margin-bottom: 55px;
+    
+}
+
+
+
+/* ******************************** */

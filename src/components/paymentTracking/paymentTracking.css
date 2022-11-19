@@ -1,0 +1,60 @@
+.payment_tracking_container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px;
+    height: 500px;
+    
+}
+.payment_photo{
+    position: relative;
+    
+    height: 500px;
+    width: 100%;
+}
+.payment_photo img{
+    margin-left: -33px;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.gologolo{
+    position: absolute;
+    top: 0;
+    right: 123px;
+}
+
+.payment_contents .payment_title{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+.payment_contents h5{
+    color: #3734A9;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+.payment_contents .payment_subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: rgba(100, 96, 125, 1);
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(196, 196, 196, 1);
+}
+.payment_ticks div{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(100, 96, 125, 1)
+
+
+}
