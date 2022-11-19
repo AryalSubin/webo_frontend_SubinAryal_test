@@ -1,0 +1,36 @@
+.testimonial_card_container{
+    position: relative;
+    height: 400px;
+    display: flex;
+    border: 1px solid #CFCFCF;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+  
+}
+.quote_circle{
+    position: absolute;
+}
+.author_description{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    margin: 50px 35px 40px;
+}
+.author_name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin: 0 35px 40px;
+}
+.testimonial_card_left{
+    width: 370px;
+}
+.testimonial_card_right{
+    padding: 20px;
+}
+.testimonial_card_right img{
+    width: 100%;
+    
+}

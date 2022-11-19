@@ -1,7 +1,9 @@
 .features_container{
+    position: relative;
     background-color: #C9E7F2;
     width: 100%;
     padding: 140px 120px;
+    margin-bottom: 140px;
     
     
 }
@@ -37,9 +39,10 @@
     flex-direction: column;
     justify-content: space-between;
 }
-/* .feature_card_container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-} */
 
+.minusImage{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    
+}

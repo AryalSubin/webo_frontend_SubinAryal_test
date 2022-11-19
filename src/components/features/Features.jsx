@@ -3,7 +3,7 @@ import FeatureCard from '../../common/featureCard/FeatureCard';
 import './features.css';
 import fileExp1 from '../../assets/fileExp1.png'
 import fileExp2 from '../../assets/fileExp2.png'
-import fileExp3 from '../../assets/fileExp3.png'
+import minusMinus from '../../assets/minusMinus.png'
 
 const Features = () => {
   return (
@@ -38,6 +38,9 @@ const Features = () => {
                     title = "Believing neglected so so allowance existence"
                 />
             </div>
+        </div>
+        <div className='minusImage'>
+            <img src={minusMinus} alt="" />
         </div>
     </div>
   )
