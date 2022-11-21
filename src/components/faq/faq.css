@@ -1,0 +1,60 @@
+.faq_container{
+    padding: 0 120px;
+
+}
+.faq_container h1{
+    margin-bottom: 72px;
+    font-weight: 800;
+    font-size: 71px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+    width: 570px;
+}
+.qna_mail{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mail_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    width: 400px;
+    padding: 32px;
+}
+.mail_container .moreQuestion_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+.mail_container .moreQuestion_div h3{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 43px 0 23px;
+
+}
+.mail_container .moreQuestion_div h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+}
+.mail_container .button{
+    background-color: #FF7F5C;
+    padding: 22px 95px;
+
+}
+.mail_container .button p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}

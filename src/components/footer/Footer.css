@@ -1,0 +1,96 @@
+.footer_container{
+    margin: 150px 120px 0px;
+}
+
+.upper_div{
+    display: flex;
+    justify-content: space-between;
+}
+.lower_div > p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.lower_div{
+    padding: 40px 0px 60px;
+    border-top: 2px solid #E5E5EA;
+    margin-top: 60px;
+}
+.upper_div .first_div .company_name{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    
+}
+.socials a{
+    margin-right: 15px;
+}
+.upper_div p{
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.upper_div h2{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.first_div> h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+    width: 215px;
+    color: #757095;
+}
+.fourth_div> h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 330px;
+    color: #757095;
+}
+.subscribe_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+
+}
+.subscribe_container input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E5E5EA;
+    border-radius: 5px;
+    padding: 0px 20px;
+    background-color: #EEEEFF;
+    
+}
+.subscribe_container input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #181433;
+    opacity: 0.2;
+}
+.subscribe_container button{
+    background-color: #3734A9;
+    height: 100%;
+    width: 150px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    
+}

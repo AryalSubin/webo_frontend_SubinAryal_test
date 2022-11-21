@@ -1,0 +1,25 @@
+.blog_card_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 382px;
+    height: 435px;
+}
+.blog_top_div{
+    padding: 25px 0 0 32px;
+}
+.blog_top_div > p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    width: 310px;
+}
+.blog_top_div > h2{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}

@@ -1,0 +1,38 @@
+.qna_div{
+    
+    width: 750px;
+    background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+.question_div > p {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 23px;
+
+}
+.answer_div > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    
+}
+.question_div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.answer_div{
+    display: none
+}
+.answer_div_show{
+    display: visible
+}
+/* .show{
+    display: visible;
+    
+} */

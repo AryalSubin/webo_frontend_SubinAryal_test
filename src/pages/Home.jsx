@@ -1,11 +1,16 @@
 import React from 'react';
+import Blog from '../components/blog/Blog';
 
 import Companies from "../components/companies/Companies";
+import Discover from '../components/discover/Discover';
+import Faq from '../components/faq/Faq';
 import Features from '../components/features/Features';
+import Footer from '../components/footer/Footer';
 import Header from "../components/header/Header";
 import Navigation from "../components/navigation/Navigation";
 import PaymentTracking from '../components/paymentTracking/PaymentTracking';
 import PortfolioTracking from "../components/portfolioTracking/PortfolioTracking";
+import Statistics from '../components/statistics/Statistics';
 import Testimonials from '../components/testimonials/Testimonials';
 import Transaction from '../components/Transaction/Transaction';
 import './Home.css';
@@ -21,6 +26,11 @@ const Home = () => {
         <Transaction />
         <Features/>
         <Testimonials/>
+        <Statistics /> 
+        <Blog/>
+        <Faq/>
+        <Discover/>
+        <Footer/>
     </div>
   )
 }
