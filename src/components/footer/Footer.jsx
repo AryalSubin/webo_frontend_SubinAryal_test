@@ -14,10 +14,10 @@ const Footer = () => {
                 <h2 className='company_name'> AR Shakir </h2>
                 <h5>Finance helps companies manage payments easily </h5>
                 <div className='socials'>
-                    <a href="https://www.linkedin.com/in/aryalsuubin/"><img src={linkedIn} alt="linkedIn" /></a>
-                    <a href="https://www.linkedin.com/in/aryalsuubin/"><img src={messenger} alt="linkedIn" /></a>
-                    <a href="https://www.linkedin.com/in/aryalsuubin/"><img src={twitter} alt="linkedIn" /></a>
-                    <a href="https://www.linkedin.com/in/aryalsuubin/"><img src={twoo} alt="linkedIn" /></a>
+                    <a href="https://www.linkedin.com" target='_blank' ><img src={linkedIn} alt="linkedIn" /></a>
+                    <a href="https://www.facebook.com/messages/t"><img src={messenger} alt="linkedIn" /></a>
+                    <a href="https://twitter.com/home"><img src={twitter} alt="linkedIn" /></a>
+                    <a href="https://www.linkedin.com"><img src={twoo} alt="linkedIn" /></a>
                 </div>
             </div>
             <div className="second_div">
@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="fourth_div">
                 <h2>Join Our Newsletter</h2>
                 <div className='subscribe_container'>
-                    <input type="text" placeholder="Your email address" />
+                    <input type="email" placeholder="Your email address" />
                     <button>Subscribe</button>
                 </div>
                 <h5>* Will send you weekly updates for your better finance management.</h5>

@@ -12,15 +12,15 @@ const Companies = () => {
   return (
     <div className='companies_container'>
         <h2>Over 32k+ software businesses growing with AR Shakir.</h2>
-        <ul className='companies_list'>
-            <li><img src={Oz} alt="" /></li>
-            <li><img src={oracle} alt="" /></li>
-            <li><img src={morpheus} alt="" /></li>
-            <li><img src={samsung} alt="" /></li>
-            <li><img src={monday} alt="" /></li>
-            <li><img src={segment} alt="" /></li>
-            <li><img src={protonet} alt="" /></li>
-        </ul>
+        <marquee className='companies_list' direction="right" scrollamount= "20" >
+            <img src={Oz} alt="" />
+            <img src={oracle} alt="" />
+            <img src={morpheus} alt="" />
+            <img src={samsung} alt="" />
+            <img src={monday} alt="" />
+            <img src={segment} alt="" />
+            <img src={protonet} alt="" />
+        </marquee>
     </div>
   )
 }

@@ -10,9 +10,6 @@
     font-size: 22px;
     font-weight: 500;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px
+.companies_container .companies_list img{
+    margin-right: 80px;
 }

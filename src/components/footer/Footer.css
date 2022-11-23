@@ -29,6 +29,11 @@
 .socials a{
     margin-right: 15px;
 }
+.socials a img:hover{
+    transition: all 0.3s ease-in-out;
+    scale: 1.15;
+}
+
 .upper_div p{
     margin: 20px 0;
     font-weight: 500;
@@ -92,5 +97,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    cursor: pointer;
+    
+}
+.subscribe_container button:hover{
+    transition: all 0.2s ease-out;
+    scale: 1.04;
+    
     
 }

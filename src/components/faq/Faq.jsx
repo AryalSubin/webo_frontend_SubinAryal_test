@@ -2,6 +2,8 @@ import React from 'react';
 import './faq.css';
 import plusSign from '../../assets/plusSign.svg';
 import messageIcon from '../../assets/messageIcon.png';
+import faq1 from '../../assets/faq1.png';
+import faq2 from '../../assets/faq2.png';
 import FaqCard from '../../common/faqCard/FaqCard';
 
 
@@ -32,7 +34,9 @@ const Faq = () => {
 
   return (
     <div className='faq_container'>
-      <h1>Frequently Asked Questions</h1>
+      <h1>Frequently asked questions</h1>
+      <img className='firstImg' src={faq1} alt="faqdesign" />
+      <img className='secondImg' src={faq2} alt="faqdesign2" />
         <div className="qna_mail">
           <div className='qna_container'>
           <FaqCard

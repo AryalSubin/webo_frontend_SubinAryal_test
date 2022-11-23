@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './hero.css';
 import playBtn from '../../assets/Play_Button.png';
 import tickMark from '../../assets/Tick_mark.png';
 import xxPhoto from '../../assets/xx.png';
@@ -8,9 +8,9 @@ import dotdot from '../../assets/dotdot.png';
 import color_splash from '../../assets/color_splash.png';
 
 
-const header = () => {
+const hero = () => {
   return (   
-    <header>
+    <div className='hero'>
         <div className='container_header'>
         <div className='left_div'>
             <div className='contents'>
@@ -37,8 +37,8 @@ const header = () => {
             <div className='xxPhoto'><img src={xxPhoto} alt="xxphoto" /></div>
         </div>
     </div>
-    </header>        
+    </div>        
   )
 }
 
-export default header
+export default hero;

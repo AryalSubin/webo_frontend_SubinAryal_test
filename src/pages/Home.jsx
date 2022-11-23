@@ -6,7 +6,7 @@ import Discover from '../components/discover/Discover';
 import Faq from '../components/faq/Faq';
 import Features from '../components/features/Features';
 import Footer from '../components/footer/Footer';
-import Header from "../components/header/Header";
+import Hero from "../components/hero/Hero";
 import Navigation from "../components/navigation/Navigation";
 import PaymentTracking from '../components/paymentTracking/PaymentTracking';
 import PortfolioTracking from "../components/portfolioTracking/PortfolioTracking";
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className="home">
         <Navigation />
-        <Header />
+        <Hero />
         <Companies />
         <PortfolioTracking />
         <PaymentTracking />

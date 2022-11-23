@@ -1,5 +1,18 @@
 .faq_container{
+    position: relative;
     padding: 0 120px;
+
+}
+.faq_container > .firstImg{
+    position: absolute;
+    left:0;
+    top:90px;
+
+}
+.faq_container > .secondImg{
+    position: absolute;
+    right:0;
+    top: 0;
 
 }
 .faq_container h1{
@@ -8,7 +21,7 @@
     font-size: 71px;
     line-height: 76px;
     letter-spacing: -0.03em;
-    width: 570px;
+    width: 550px;
 }
 .qna_mail{
     display: flex;
@@ -25,6 +38,12 @@
     border-radius: 10px;
     width: 400px;
     padding: 32px;
+}
+
+.mail_container:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    scale: 1.005;
 }
 .mail_container .moreQuestion_div{
     display: flex;
@@ -50,6 +69,9 @@
     padding: 22px 95px;
 
 }
+.mail_container .button:hover{
+    cursor: pointer;
+}
 .mail_container .button p{
     font-weight: 600;
     font-size: 16px;
@@ -57,4 +79,5 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    
 }
