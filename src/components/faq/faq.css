@@ -81,3 +81,53 @@
     color: #FFFFFF;
     
 }
+
+
+/********** for tablets ************/  
+@media screen and (max-width: 980px) {
+    .qna_mail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .faq_container{
+        padding: 0 60px;
+    
+    }
+    
+
+}
+/********** for mobiles ************/  
+@media screen and (max-width: 640px) {
+    .qna_mail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .faq_container{
+        position: relative;
+        padding: 0 30px;
+    
+    }
+    .mail_container{
+        
+        width: 100%;
+    }
+    .faq_container h1{
+        margin-bottom: 35px;
+        font-weight: 700;
+        font-size: 35px;
+        width: 100%;
+    }
+    .mail_container .button p{
+        width: 100%;
+        
+    }
+    
+    
+
+}

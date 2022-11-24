@@ -30,3 +30,13 @@
     letter-spacing: -0.02em;
     width: 300px;
 }
+
+
+/********** for mobiles ************/  
+@media screen and (max-width: 980px) {
+
+    .feature_card_container{
+        width: 100%;
+        
+    }
+}

@@ -121,5 +121,46 @@
     overflow: hidden;
 }
 
-    
+/************ for tablets********************/
+@media screen and (max-width: 980px) {
+    .container_header .right_div{
+        display: none;
+    }
+    .contents{
+        left: 60px;
+    }
+
+}
+/************ for mobiles********************/
+@media screen and (max-width: 640px) {
+    .hero{
+        height: 80vh;
+    }
+    .container_header .right_div{
+        display: none;
+    }
+    .contents{
+        left: 30px;
+        top: 130px;
+    }
+    .contents h1{
+        font-size: 30px;
+        font-weight: 700;
+        width: 50%;
+    }
+    .contents h5{
+        font-size: 15px;
+        font-weight: 500;
+        color: rgba(100, 96, 125, 1);
+        width: 50%;
+    }
+
+    .CTA{
+        scale: 0.8;
+        position: relative;
+        left: -60px;
+    }
+
+
+}
 

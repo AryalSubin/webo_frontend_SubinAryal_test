@@ -40,3 +40,48 @@
     width: 100%;
     
 }
+
+/***************** for tablets********* */  
+@media screen and (max-width: 980px) {
+    
+    .testimonial_card_container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      
+    }    
+    
+    
+    
+
+
+}
+/***************** for tablets********* */  
+@media screen and (max-width: 640px) {
+    
+    .testimonial_card_container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+    }    
+    .author_name{
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 35px 40px;
+    }
+    .author_description{
+        font-weight: 500;
+        font-size: 20px;
+        margin: 50px 35px 40px;
+    }
+    .testimonial_card_left{
+        width: 100%;
+    }
+    
+    
+    
+
+
+}

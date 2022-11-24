@@ -40,3 +40,16 @@
     color: rgba(100, 96, 125, 1);
     text-align: center;
 }
+
+/********** for tablets ************/  
+@media screen and (max-width: 980px) {
+
+    .Portfolio_card_container{
+        height: 100%;
+        width: 360px;
+        padding: 20px;
+        
+    }
+    
+
+}

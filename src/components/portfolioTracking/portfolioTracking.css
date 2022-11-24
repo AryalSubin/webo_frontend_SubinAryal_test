@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 70px 120px;
-    height: 210px;
+    margin: 70px 60px;
+    
 }
 
 
@@ -24,5 +24,69 @@
     display: flex;
     justify-content: space-between;
     margin: 120px;
+
+}
+
+/********** for tablets ************/  
+@media screen and (max-width: 980px) {
+
+    .section_heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        align-items: center;
+        
+    }
+    .left_section p{
+        font-weight: 500;
+        font-size: 16px; 
+        width:510px;   
+    } 
+    .portfolio_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin: 120px;
+    
+    }
+    
+
+}
+/********** for mobiles ************/  
+@media screen and (max-width: 640px) {
+    
+
+    .section_heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        align-items: center;
+        margin: 70px 30px;
+        
+    }
+    .portfolio_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    
+    }
+    .left_section h1{
+        font-weight: 700;
+        font-size: 30px;
+        width: 70%;
+        margin-bottom: 20px;
+       
+           
+    }
+    .left_section p{
+        font-weight: 500;
+        font-size: 15px; 
+        width: 80%;   
+    }
+    
 
 }

@@ -1,3 +1,6 @@
+
+
+
 .navigation_container{
     width: 100%;
     display: flex;
@@ -8,6 +11,9 @@
     margin: 30px 0 0;
     padding: 0 120px;
     z-index: 999;
+}
+.menu{
+    display: none;
 }
 .mid_div{
     display: flex;
@@ -22,35 +28,13 @@
     text-decoration: none solid rgb(0, 0, 0);
     word-spacing: 0px;
 }
-.arrow{
-    margin-left: 3px;
+select .arrow{
+    margin-left: 10px;
 }
 .list_mid{
     cursor: pointer;
 }
 
-
-/* .mid_div ul{
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
-} */
-/* .mid_div ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.mid_div ul li{
-    
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-}
-.mid_div ul li img{
-    margin-left: 10px;
-} */
 .nav_logo{
     font-family: 'Glory', sans-serif;
     display: flex;
@@ -63,6 +47,11 @@
     
     
 }
+.right_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .start_free{
     background: var(--color-bluelike);
     padding: 20px 40px;
@@ -74,4 +63,95 @@
 }
 a{
     color: black;
+}
+.small_nav_div{
+    display: none;
+}
+.hide_menu{
+    display: none;
+}
+
+/* for tablets */  
+@media screen and (max-width: 980px) {
+    .navigation_container{
+        padding: 0 60px;
+    }
+    .mid_div{
+        gap: 10px;
+    }
+
+    .mid_div select{ 
+        font-size: 14px;
+    }
+    .nav_logo{
+        font-size: 16px;
+    }
+    .mid_div a {
+        font-size: 14px;
+    }
+    
+
+
+}
+
+/****************** For mobiles ********************/
+@media screen and (max-width: 640px) {
+    .navigation_container{
+        padding: 0 30px;
+        
+    }
+    .mid_div{
+        display: none;
+    }
+    
+    
+    .nav_logo{
+        font-size: 14px;
+        flex:1;
+    }
+    .right_div{
+        display: none;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    .small_nav_div{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        padding: 0px 30px;
+        height: 100vh;
+        width: 100%;
+        top:-30px;
+        
+        left: 0;
+        background-color: #c9e7f2;
+        transition: all 0.5s ease-in-out;
+    }
+    .small_nav_div select{
+        cursor: pointer;
+        background-color: transparent;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        text-decoration: none solid rgb(0, 0, 0);
+        word-spacing: 0px;
+    }
+    .small_nav_div img{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    a{
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .hide_menu{
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+
 }

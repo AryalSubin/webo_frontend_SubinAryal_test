@@ -31,3 +31,19 @@
     
     
 }
+
+
+/********** for mobile ************/  
+@media screen and (max-width: 640px) {
+
+    .card_container{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        background-color:var(--color-quote-bg);
+        padding: 20px;
+    }
+    
+
+}

@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 120px;
+    
 }
 .Transaction_photo{
     position: relative;
@@ -54,5 +55,50 @@
 }
 
 
+/********** for tablets ************/  
+@media screen and (max-width: 980px) {
 
-/* ******************************** */
+    .Transaction_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 60px;
+    }
+    .Transaction_contents{
+        margin: 60px 0px;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+/********** for mobiles ************/  
+@media screen and (max-width: 640px) {
+
+    .Transaction_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+    }
+    .Transaction_contents{
+        margin: 60px 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .Transaction_photo .total_balance_photo img{
+        position: relative;
+        left: -40px;
+        height: auto;
+        width: 100%;
+    }
+    .Transaction_contents .Transaction_title{
+    
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 10px;
+       
+    }
+   
+
+}

@@ -74,3 +74,53 @@
     left: 140px;
     bottom: 45px;
 }
+
+/*****************For tablets*********************/
+@media screen and (max-width: 980px) {
+    
+    
+    .discover_container{
+        margin: 0 60px;
+        margin-top: 70px;
+        height: 350px;
+    }
+    
+    
+    
+
+}
+/*****************For mobile*********************/
+@media screen and (max-width: 640px) {
+    
+    
+    .discover_container{
+        position: relative;
+        margin: 0 30px;
+        margin-top: 60px;
+        height: 230px;
+    }
+    .discover_container .discover_contents .discover_title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .discover_container .discover_image5{
+        position: absolute;
+        left: 60px;
+        bottom: 45px;
+    }
+    .discover_container .discover_image1{
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    .discover_container .discover_image3{
+       display: none;
+    }
+    
+    
+    
+    
+
+}

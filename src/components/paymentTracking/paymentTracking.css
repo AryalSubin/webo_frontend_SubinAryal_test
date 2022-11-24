@@ -63,3 +63,65 @@
 
 
 }
+/*****************For tablets*********************/
+@media screen and (max-width: 980px) {
+   
+    .payment_tracking_container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 260px 60px;
+        height: 500px;
+        
+    }
+    .gologolo{
+        position: absolute;
+        top: 0;
+        left: 500px;
+    }
+    
+    
+
+}
+/*****************For mobiles*********************/
+@media screen and (max-width: 640px) {
+   
+    .payment_tracking_container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 60px 30px;
+        height: 100%;
+        
+    }
+    .gologolo{
+        display: none;
+    }
+    .payment_photo{
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .payment_photo img{
+        
+        width: 100%;
+        position: relative;
+        left: 30px;
+        object-fit: contain             ;
+        overflow: hidden;
+        
+    }
+    .payment_contents .payment_title{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .payment_contents .payment_subtitle{
+        font-size: 14px;
+    }
+    
+    
+    
+
+}
