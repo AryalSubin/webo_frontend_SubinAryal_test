@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #3734A9;
+    background-color: var(--color-bluelike);
     margin: 0 120px;
     border-radius: 20px;
     height: 440px;
@@ -25,7 +25,7 @@
     align-items: center;
 }
 .discover_contents .button{
-    background-color: #FF7F5C;
+    background-color: var(--color-orange-btn);
     padding: 20px 40px;
     margin-top: 40px;
     border-radius: 10px;

@@ -90,7 +90,7 @@
     opacity: 0.2;
 }
 .subscribe_container button{
-    background-color: #3734A9;
+    background-color: var(--color-bluelike);
     height: 100%;
     width: 150px;
     color: #FFFFFF;

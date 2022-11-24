@@ -1,6 +1,6 @@
 .features_container{
     position: relative;
-    background-color: #C9E7F2;
+    background-color: var(--color-feature-bg);
     width: 100%;
     padding: 140px 120px;
     margin-bottom: 140px;

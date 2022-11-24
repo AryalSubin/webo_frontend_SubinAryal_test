@@ -1,5 +1,5 @@
 .companies_container{
-    background-color: #F5F6F8;
+    background-color: var(--color-companies-bg);
     height: 240px;
     width: 100%;
 }

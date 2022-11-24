@@ -1,4 +1,4 @@
 .home{
     position: relative;
-    background-color: #FAFBFF;
+    background-color: var(--color-bg);
 }

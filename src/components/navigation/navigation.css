@@ -64,7 +64,7 @@
     
 }
 .start_free{
-    background: #4F46BA;
+    background: var(--color-bluelike);
     padding: 20px 40px;
     color: white;
     font-size: 14px;

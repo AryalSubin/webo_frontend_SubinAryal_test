@@ -3,7 +3,7 @@
     height: 180px;
     width: 410px;
     border-radius: 20px;
-    background-color: rgba(196, 196, 196,0.3);
+    background-color:var(--color-quote-bg);
     padding: 30px;
 }
 .card_container .first_para{

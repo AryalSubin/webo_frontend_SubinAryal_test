@@ -1,7 +1,7 @@
 .hero{
     height: 790px;
     overflow: hidden;
-    background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    background: var(--color-hero-bg);
 
 }
 .container_header{
@@ -38,7 +38,7 @@
     width: 510px;
 }
 .btn{
-    background: #3734A9;
+    background: var(--color-bluelike);
     padding: 20px 40px;
     border-radius: 47px;
     color: white;
@@ -58,7 +58,7 @@
 }
 .CTA > a{
     margin-left: 10px;
-    color: #3734A9;
+    color: var(--color-bluelike);
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;

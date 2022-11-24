@@ -37,7 +37,7 @@
     margin-bottom: 30px;
 }
 .Transaction_contents h5{
-    color: #3734A9;
+    color: var(--color-bluelike);
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 15px;

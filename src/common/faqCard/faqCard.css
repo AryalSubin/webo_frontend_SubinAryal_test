@@ -1,8 +1,8 @@
 .qna_div{
     
     width: 750px;
-    background-color: #FFFFFF;
-    border: 1px solid #CFCFCF;
+    background-color: white;
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 15px;

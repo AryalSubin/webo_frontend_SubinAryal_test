@@ -33,8 +33,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
-    border: 1px solid #CFCFCF;
+    background-color: white;
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     width: 400px;
     padding: 32px;
@@ -65,7 +65,7 @@
     text-align: center;
 }
 .mail_container .button{
-    background-color: #FF7F5C;
+    background-color: var(--color-orange-btn);
     padding: 22px 95px;
 
 }
